@@ -16,8 +16,8 @@ sure that you include, in addition to what's necessary to compile and
 upload the firmware:
 - a diagram of the keyboard matrix ([Example](mo5/keyboard-matrix.png))
 - a photo showing where those rows and columns are connected ([Example](mo5/keyboard-pinout.png))
-- a diagram showing where to plug the cables onto the micro-controller ([Example](microcontroller-pinout.png))
-- a photo of the keyboard itself, to document its layout ([Example](keyboard.jpg))
+- a diagram showing where to plug the cables onto the micro-controller ([Example](mo5/microcontroller-pinout.png))
+- a photo of the keyboard itself, to document its layout ([Example](mo5/keyboard.jpg))
 
 License
 -------

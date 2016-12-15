@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x069B         /* Thomson, Inc. */
-#define PRODUCT_ID      0x7779         /* "M" "O" */
-#define DEVICE_VER      0x0005         /* "5" */
+#define VENDOR_ID       0x1d50
+#define PRODUCT_ID      0x6118
+#define DEVICE_VER      0x0001
 #define MANUFACTURER    Thomson
 #define PRODUCT         MO5
 #define DESCRIPTION     hadess keyboard firmware for MO5

@@ -1,0 +1,9 @@
+*~
+.dep
+*_lufa.eep
+*_lufa.elf
+*_lufa.hex
+*_lufa.lss
+*_lufa.map
+*_lufa.sym
+obj_*_lufa/

@@ -13,18 +13,33 @@
  * B5:   .      ⟲      L      F      O      R      9      4
  * B6:   ,      INS    K      G      I      T      8      5
  * B7:   N      EFF    J      H      U      Y      7      6
+ *
+ * Which would correspond to:
+ *
+ *  KEYMAP(
+ *     LSFT,   LALT,                                             \
+ *     W,       UP,    C,     CLR,   ENT,   LCTL,  RALT,  ESC,   \
+ *     X,      LEFT,   V,     Q,     PAST,  A,     EQL,   1,     \
+ *     SPC,    DOWN,   B,     S,     SLSH,  Z,     MINS,  2,     \
+ *     COMM,   RIGHT,  M,     D,     P,     E,     0,     3,     \
+ *     DOT,    HOME,   L,     F,     O,     R,     9,     4,     \
+ *     COMM,   INS,    K,     G,     I,     T,     8,     5,     \
+ *     N,      BSPC,   J,     H,     U,     Y,     7,     6)
+ *
+ * But we want the keyboard, setup with a French keymap, to more
+ * or less match what's on the keyboard.
  */
 
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(
-        LSFT, LALT,                                      \
-        W,    UP,   C,    CLR,  ENT,  LCTL, RALT, SLCK,  \
-        X,    LEFT, V,    Q,    PAST, A,    EQL,  1,     \
-        SPC,  DOWN, B,    S,    SLSH, Z,    MINS, 2,     \
-        COMM, RIGHT,M,    D,    P,    E,    0,    3,     \
-        DOT,  HOME, L,    F,    O,    R,    9,    4,     \
-        COMM, INS,  K,    G,    I,    T,    8,    5,     \
-        N,    BSPC, J,    H,    U,    Y,    7,    6),
+       LSFT,   LALT,                                             \
+       Z,       UP,    C,     CLR,   ENT,   LCTL,  RALT,  ESC,   \
+       X,      LEFT,   V,     A,     PAST,  Q,     EQL,   1,     \
+       SPC,    DOWN,   B,     S,     SLSH,  W,     MINS,  2,     \
+       COMM,   RIGHT,  SCLN,  D,     P,     E,     0,     3,     \
+       DOT,    TAB,    L,     F,     O,     R,     9,     4,     \
+       M,      INS,    K,     G,     I,     T,     8,     5,     \
+       N,      BSPC,   J,     H,     U,     Y,     7,     6),
 };
 
 const action_t PROGMEM fn_actions[] = {

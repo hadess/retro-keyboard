@@ -27,7 +27,8 @@
  *     N,      BSPC,   J,     H,     U,     Y,     7,     6)
  *
  * But we want the keyboard, setup with a French keymap, to more
- * or less match what's on the keyboard.
+ * or less match what's on the keyboard, and avoid duplicate or
+ * unusable keys.
  */
 
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {

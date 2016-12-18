@@ -34,7 +34,7 @@
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(
        LSFT,   LALT,                                             \
-       Z,       UP,    C,     CLR,   ENT,   LCTL,  RALT,  ESC,   \
+       Z,      UP,     C,     LGUI,  ENT,   LCTL,  RALT,  ESC,   \
        X,      LEFT,   V,     A,     PAST,  Q,     EQL,   1,     \
        SPC,    DOWN,   B,     S,     SLSH,  W,     MINS,  2,     \
        COMM,   RIGHT,  SCLN,  D,     P,     E,     0,     3,     \
